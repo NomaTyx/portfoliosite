@@ -141,7 +141,7 @@ footer {
 nav {
   background-color: aquamarine;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   /*this is how you make it centered vertically*/
   align-items: center;
   flex-wrap: wrap-reverse;
@@ -151,8 +151,10 @@ nav {
 #navbuttons {
   display: flex;
   align-items: center; /* vertical */
-  justify-content: space-between; /* horizontal */
+  justify-content: space-around; /* horizontal */
   margin-left: 10px;
+  background-color: red;
+  width: 35vw;
 }
 
 button {
@@ -160,7 +162,12 @@ button {
   background-color: transparent;
 }
 
-button:hover {
+.navbutton {
+  color: black;
+  text-decoration: none;
+}
+
+.navbutton:hover {
   color: grey;
 }
 
@@ -172,11 +179,12 @@ h2 {
   font-size: 36px;
 }
 
-.textandicon {
+.cardtextandicon {
   display: flex;
+  line-height: 1.5;
 }
 
-.textandicon img {
+.cardtextandicon img {
   max-height: 75px;
   margin-left: 10%;
 }
