@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Acme", sans-serif;
+}
+
+#blackbar {
+  background-color: black;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#blackbartext {
+  color: white;
+}
+
+#titleblock {
+  height: 40vh;
+  background-color: rgb(136, 180, 205);
+  background-image: url("./barraskewda.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+@media screen and (min-width: 1281px) {
+  #cardsmissionstatement {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #blackbarimages {
+    width: 70%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #blackbarimages img {
+    width: 150%;
+    min-width: 150%;
+    min-width: 100px;
+  }
+
+  #blackbartext {
+    width: 20%;
+    padding: 2%;
+    border-left: 2px solid white;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1280px) {
+  #blackbarimages {
+    width: 90%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #blackbarimages img {
+    width: 150%;
+  }
+
+  #blackbartext {
+    width: 80%;
+    text-align: center;
+  }
+
+  #titleblock {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #blackbarimages {
+    display: none;
+  }
+
+  #blackbartext {
+    width: 80%;
+    text-align: center;
+  }
+
+  #titleblock {
+    height: 20vh;
+  }
+}
+
+#cards {
+  display: grid;
+  place-items: center;
+  text-align: left;
+  width: 70%;
+  margin-left: 10%;
+}
+
+.card {
+  border-top: 1px solid black;
+}
+
+#missionstatement {
+  display: grid;
+  width: 80%;
+  margin-left: 10%;
+  place-items: center;
+  text-align: center;
+}
+
+#missionstatement img {
+  width: 50%;
+}
+
+/*truthfully i have no idea why this is needed but if i made text-align left above then the image would be off center which i think is cringe*/
+#missionstatement h3,
+#missionstatement h1 {
+  text-align: left;
+}
+
+#titleblock header {
+  position: absolute;
+  bottom: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+nav {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  /*this is how you make it centered vertically*/
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  height: 50px;
+}
+
+#navbuttons {
+  display: flex;
+  align-items: center; /* vertical */
+  justify-content: space-between; /* horizontal */
+  margin-left: 10px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  color: grey;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.textandicon {
+  display: flex;
+}
+
+.textandicon img {
+  max-height: 75px;
+  margin-left: 10%;
+}
+
+.cardsheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.cardsheader a {
+  text-align: right;
+}
