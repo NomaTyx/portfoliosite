@@ -26,11 +26,10 @@ h2 {
 #titleblock {
   height: 40vh;
   background-color: rgb(136, 180, 205);
-  background-image: url("./barraskewda.png");
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-blend-mode: multiply;
   position: relative;
+  align-content: center;
+  /* WHYYY does text-align control horizontal. ok whatever man */
+  text-align: center;
 }
 
 @media screen and (min-width: 1281px) {
@@ -129,11 +128,6 @@ h2 {
   text-align: left;
 }
 
-#titleblock header {
-  position: absolute;
-  bottom: 0;
-}
-
 footer {
   text-align: center;
 }
@@ -145,7 +139,7 @@ nav {
   /*this is how you make it centered vertically*/
   align-items: center;
   flex-wrap: wrap-reverse;
-  height: 50px;
+  height: 100px;
 }
 
 #navbuttons {
@@ -153,7 +147,6 @@ nav {
   align-items: center; /* vertical */
   justify-content: space-around; /* horizontal */
   margin-left: 10px;
-  background-color: red;
   width: 35vw;
 }
 
