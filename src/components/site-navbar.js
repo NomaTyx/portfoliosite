@@ -7,8 +7,7 @@ class SiteNavbar extends HTMLElement {
           <a href="index.html" class="navbutton">Home</a>
           <a href="aboutme.html" class="navbutton">About Me</a>
           <a href="resume.html" class="navbutton">Resume</a>
-          <a href="games.html" class="navbutton">Games</a>
-          <a href="otherprojects.html" class="navbutton">Other Projects</a>
+          <a href="projects.html" class="navbutton">My Projects</a>
         </div>
       </nav>
         `;

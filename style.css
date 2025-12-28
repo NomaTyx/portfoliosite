@@ -11,19 +11,6 @@ h2 {
   font-family: "Acme", sans-serif;
 }
 
-#blackbar {
-  background-color: black;
-  height: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#blackbartext {
-  color: white;
-}
-
 #titleblock {
   height: 40vh;
   background-color: rgb(136, 180, 205);
@@ -38,62 +25,15 @@ h2 {
     display: grid;
     grid-template-columns: 60% 40%;
   }
-
-  #blackbarimages {
-    width: 70%;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #blackbarimages img {
-    width: 150%;
-    min-width: 150%;
-    min-width: 100px;
-  }
-
-  #blackbartext {
-    width: 20%;
-    padding: 2%;
-    border-left: 2px solid white;
-    text-align: left;
-  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1280px) {
-  #blackbarimages {
-    width: 90%;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #blackbarimages img {
-    width: 150%;
-  }
-
-  #blackbartext {
-    width: 80%;
-    text-align: center;
-  }
-
   #titleblock {
     height: 30vh;
   }
 }
 
 @media screen and (max-width: 700px) {
-  #blackbarimages {
-    display: none;
-  }
-
-  #blackbartext {
-    width: 80%;
-    text-align: center;
-  }
-
   #titleblock {
     height: 20vh;
   }
@@ -108,7 +48,7 @@ h2 {
 }
 
 .card {
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #missionstatement {
@@ -185,4 +125,8 @@ h2 {
 
 .cardsheader a {
   text-align: right;
+}
+
+a {
+  color: blue;
 }
