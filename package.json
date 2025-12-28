@@ -1,0 +1,43 @@
+{
+  "name": "portfoliosite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  },
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "detect-libc": "^2.1.2",
+    "esbuild": "^0.27.2",
+    "fdir": "^6.5.0",
+    "fsevents": "^2.3.3",
+    "jiti": "^2.6.1",
+    "lightningcss": "^1.30.2",
+    "lightningcss-darwin-arm64": "^1.30.2",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "rollup": "^4.54.0",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomaTyx/portfoliosite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NomaTyx/portfoliosite/issues"
+  },
+  "homepage": "https://github.com/NomaTyx/portfoliosite#readme"
+}
